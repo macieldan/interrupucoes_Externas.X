@@ -65,6 +65,7 @@ void __interrupt(high_priority) inteRupZERO(){
    
    if (INTCONbits.INT0IF){
       led_azul();
+      __delay_ms(2000);                //enquanto a interrupção UM (HIGH PRIORITY) esta em execução, as demais inerrupções LP param de executar 
       INTCONbits.INT0IF = 0;
    }
 }
@@ -72,16 +73,15 @@ void __interrupt(low_priority) inteRupUM(){
    
    if(INTCON3bits.INT1IF){
       led_vermelho();
-      //INTCON3bits.INT1IF = 0;
+      INTCON3bits.INT1IF = 0;
    }
 }
 
 
 void led_azul(){
-   
    PORTDbits.RD0 = ~PORTDbits.RD0;
-   __delay_ms(1000);
 }
+
 void led_vermelho(){
    PORTDbits.RD1 = ~PORTDbits.RD1;
 }
