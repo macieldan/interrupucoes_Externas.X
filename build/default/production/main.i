@@ -9,7 +9,6 @@
 # 1 "main.c" 2
 # 13 "main.c"
 #pragma config WDT = OFF
-
 #pragma config PBADEN = OFF
 #pragma config MCLRE = ON
 
@@ -4525,12 +4524,17 @@ extern __attribute__((nonreentrant)) void _delaywdt(unsigned long);
 #pragma intrinsic(_delay3)
 extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 # 33 "D:/SDKs/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\\pic\\include\\xc.h" 2 3
-# 19 "main.c" 2
+# 18 "main.c" 2
 
 
 
-void led_zul();
-void led_vermnelho();
+void led_azul();
+void led_vermelho();
+
+
+
+void __attribute__((picinterrupt(("high_priority")))) inteRupZERO();
+void __attribute__((picinterrupt(("low_priority")))) inteRupUM();
 
 void main(void) {
 
@@ -4539,24 +4543,55 @@ void main(void) {
 
 
    TRISDbits.RD0 = 0;
-   TRISDbits.RD0 = 0;
+   TRISDbits.RD1 = 0;
 
-   while(1){
-      if (PORTBbits.RB0){
 
-      }
-      if (PORTBbits.RB1){
 
-      };
-      _delay((unsigned long)((300)*(4000000/4000.0)));
-   };
+
+   RCONbits.IPEN = 1;
+   INTCONbits.GIEH = 1;
+   INTCONbits.GIEL = 1;
+   INTCON2bits.RBPU = 0;
+
+
+   INTCONbits.INT0IE = 1;
+   INTCONbits.INT0IF = 0;
+   INTCON2bits.INTEDG0 = 0;
+
+
+   INTCON3bits.INT1IE = 1;
+   INTCON3bits.INT1IF = 0;
+   INTCON2bits.INTEDG1 = 0;
+   INTCON3bits.INT1IP = 0;
+
+
+
+
 
    return;
 }
 
-void led_zul(){
-   PORTDbits.RD0 = ~PORTDbits.RD0;
+void __attribute__((picinterrupt(("high_priority")))) inteRupZERO(){
+
+   if (INTCONbits.INT0IF){
+      led_azul();
+      INTCONbits.INT0IF = 0;
+   }
 }
-void led_vermnelho(){
+void __attribute__((picinterrupt(("low_priority")))) inteRupUM(){
+
+   if(INTCON3bits.INT1IF){
+      led_vermelho();
+
+   }
+}
+
+
+void led_azul(){
+
+   PORTDbits.RD0 = ~PORTDbits.RD0;
+   _delay((unsigned long)((1000)*(4000000/4000.0)));
+}
+void led_vermelho(){
    PORTDbits.RD1 = ~PORTDbits.RD1;
 }
