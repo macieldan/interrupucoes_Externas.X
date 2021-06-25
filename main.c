@@ -5,7 +5,10 @@
  *
  * Created on 21 de Junho de 2021, 07:13
  * 
- * Programa para exemplificar uso das interrupções externas no PIC18F4520
+ * Programa para exemplificar uso das interrupções externas no PIC18F4520, 
+ * são duas interrupções, a interrupção Zero possui prioridade alta, 
+ * e a interrupção UM prioridade baixa. A interrupção de baixa prioridade 
+ * não pode executar enquanto a de alta esta em execução. 
  * 
  */
 
@@ -60,7 +63,7 @@ void __interrupt(low_priority) inteRupUM(){
       display_UM();
       __delay_ms(500);
       while(1){
-         display_UM();            //o display fica piscando apenas para indicar que a interrupção esta em execução            
+         display_UM();                    //o display fica piscando apenas para indicar que a interrupção esta em execução            
          if(!PORTBbits.RB1) break;
       }
       INTCON3bits.INT1IF = 0;

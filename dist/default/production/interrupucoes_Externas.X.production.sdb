@@ -27,15 +27,15 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 D:\MPLAB XC8\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"30 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+"33 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
 [v _display_ZERO display_ZERO `(v  1 e 1 0 ]
-"34
+"37
 [v _display_UM display_UM `(v  1 e 1 0 ]
-"38
+"41
 [v _inteRupZERO inteRupZERO `IIH(v  1 e 1 0 ]
-"57
+"60
 [v _inteRupUM inteRupUM `IIL(v  1 e 1 0 ]
-"72
+"75
 [v _main main `(v  1 e 1 0 ]
 [s S137 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
@@ -209,28 +209,28 @@
 ]
 [u S104 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S100 1 . 1 0 ]
 [v _INTCONbits INTCONbits `VES104  1 e 1 @4082 ]
-"72 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+"75 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"104
+"107
 } 0
-"57
+"60
 [v _inteRupUM inteRupUM `IIL(v  1 e 1 0 ]
 {
-"68
+"71
 } 0
-"34
+"37
 [v _display_UM display_UM `(v  1 e 1 0 ]
 {
-"36
+"39
 } 0
-"38
+"41
 [v _inteRupZERO inteRupZERO `IIH(v  1 e 1 0 ]
 {
-"56
+"59
 } 0
-"30
+"33
 [v _display_ZERO display_ZERO `(v  1 e 1 0 ]
 {
-"32
+"35
 } 0

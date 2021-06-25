@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+$C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 idloc IDLOC 5 200000 200000 8 1
 init CODE 0 72 72 4 1
 reset_vec CODE 0 0 0 4 1
@@ -68,55 +68,55 @@ MEDIUMCONST 600-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\interrupucoes_Externas.X.production.o
-18 intcodelo CODE >770:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-18 intcodelo CODE >57:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-26 intcodelo CODE >59:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-34 intcodelo CODE >60:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-38 intcodelo CODE >61:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-4E intcodelo CODE >63:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-52 intcodelo CODE >64:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-60 intcodelo CODE >65:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-60 intcodelo CODE >66:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-62 intcodelo CODE >68:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-8 intcode CODE >960:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-8 intcode CODE >38:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-DE text4 CODE >30:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-DE text4 CODE >31:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-FE text4 CODE >32:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-76 intcode_body CODE >38:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-78 intcode_body CODE >40:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-86 intcode_body CODE >41:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-8A intcode_body CODE >42:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-A2 intcode_body CODE >51:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-B0 intcode_body CODE >53:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-B4 intcode_body CODE >54:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-B6 intcode_body CODE >56:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-BA text2 CODE >34:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-BA text2 CODE >35:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-DC text2 CODE >36:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-100 text0 CODE >72:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-100 text0 CODE >78:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-102 text0 CODE >79:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-104 text0 CODE >87:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-106 text0 CODE >88:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-108 text0 CODE >89:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-10A text0 CODE >90:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-10C text0 CODE >93:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-10E text0 CODE >94:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-110 text0 CODE >95:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-112 text0 CODE >98:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-114 text0 CODE >99:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-116 text0 CODE >100:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-118 text0 CODE >101:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-11A text0 CODE >104:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-11E cinit CODE >421:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-11E cinit CODE >423:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-11E cinit CODE >426:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-11E cinit CODE >432:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-11E cinit CODE >434:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-120 cinit CODE >435:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-122 cinit CODE >436:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
-124 cinit CODE >437:C:\Users\uniti\AppData\Local\Temp\xcAs9a8.s
+18 intcodelo CODE >770:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+18 intcodelo CODE >60:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+26 intcodelo CODE >62:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+34 intcodelo CODE >63:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+38 intcodelo CODE >64:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+4E intcodelo CODE >66:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+52 intcodelo CODE >67:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+60 intcodelo CODE >68:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+60 intcodelo CODE >69:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+62 intcodelo CODE >71:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+8 intcode CODE >960:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+8 intcode CODE >41:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+DE text4 CODE >33:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+DE text4 CODE >34:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+FE text4 CODE >35:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+76 intcode_body CODE >41:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+78 intcode_body CODE >43:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+86 intcode_body CODE >44:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+8A intcode_body CODE >45:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+A2 intcode_body CODE >54:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+B0 intcode_body CODE >56:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+B4 intcode_body CODE >57:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+B6 intcode_body CODE >59:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+BA text2 CODE >37:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+BA text2 CODE >38:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+DC text2 CODE >39:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+100 text0 CODE >75:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+100 text0 CODE >81:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+102 text0 CODE >82:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+104 text0 CODE >90:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+106 text0 CODE >91:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+108 text0 CODE >92:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+10A text0 CODE >93:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+10C text0 CODE >96:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+10E text0 CODE >97:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+110 text0 CODE >98:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+112 text0 CODE >101:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+114 text0 CODE >102:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+116 text0 CODE >103:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+118 text0 CODE >104:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+11A text0 CODE >107:C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+11E cinit CODE >421:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+11E cinit CODE >423:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+11E cinit CODE >426:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+11E cinit CODE >432:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+11E cinit CODE >434:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+120 cinit CODE >435:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+122 cinit CODE >436:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
+124 cinit CODE >437:C:\Users\uniti\AppData\Local\Temp\xcAs32o.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -135,31 +135,31 @@ __Hspace_1 B 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.producti
 __Hspace_2 0 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\interrupucoes_Externas.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __size_of_display_UM 0 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\interrupucoes_Externas.X.production.o
 __Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\interrupucoes_Externas.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+___sp 0 0 STACK 2 stack C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 _main 100 0 CODE 0 text0 dist/default/production\interrupucoes_Externas.X.production.o
 btemp A 0 COMRAM 1 temp dist/default/production\interrupucoes_Externas.X.production.o
-start 72 0 CODE 0 init C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+start 72 0 CODE 0 init C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __size_of_main 0 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
 __end_of_inteRupZERO BA 0 CODE 0 intcode_body dist/default/production\interrupucoes_Externas.X.production.o
 __Hpowerup 72 0 CODE 0 powerup dist/default/production\interrupucoes_Externas.X.production.o
 ttemp5 B 0 COMRAM 1 temp dist/default/production\interrupucoes_Externas.X.production.o
 ttemp6 E 0 COMRAM 1 temp dist/default/production\interrupucoes_Externas.X.production.o
 ttemp7 12 0 COMRAM 1 temp dist/default/production\interrupucoes_Externas.X.production.o
-__accesstop 80 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-intlevel0 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-intlevel1 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-intlevel2 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-intlevel3 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+__accesstop 80 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+intlevel0 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+intlevel1 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+intlevel2 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+intlevel3 0 0 CODE 0 text C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\interrupucoes_Externas.X.production.o
 wtemp8 B 0 COMRAM 1 temp dist/default/production\interrupucoes_Externas.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\interrupucoes_Externas.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\interrupucoes_Externas.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\interrupucoes_Externas.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\interrupucoes_Externas.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\interrupucoes_Externas.X.production.o
@@ -172,7 +172,7 @@ __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\interrupucoes_Externas
 _TRISDbits F95 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
 __size_of_inteRupZERO 0 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+isa$xinst 0 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\interrupucoes_Externas.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\interrupucoes_Externas.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\interrupucoes_Externas.X.production.o
@@ -192,7 +192,7 @@ __Htext2 0 0 ABS 0 text2 dist/default/production\interrupucoes_Externas.X.produc
 __Htext4 0 0 ABS 0 text4 dist/default/production\interrupucoes_Externas.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\interrupucoes_Externas.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\interrupucoes_Externas.X.production.o
-__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\interrupucoes_Externas.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\interrupucoes_Externas.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\interrupucoes_Externas.X.production.o
@@ -259,9 +259,9 @@ __Lcomram 0 0 ABS 0 comram dist/default/production\interrupucoes_Externas.X.prod
 __Lconfig 0 0 CONFIG 4 config dist/default/production\interrupucoes_Externas.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\interrupucoes_Externas.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\interrupucoes_Externas.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-stackhi 5FF 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
-stacklo 80 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+isa$std 1 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+stackhi 5FF 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
+stacklo 80 0 ABS 0 - C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __Lintcode 8 0 CODE 0 intcode dist/default/production\interrupucoes_Externas.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\interrupucoes_Externas.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\interrupucoes_Externas.X.production.o
@@ -286,7 +286,7 @@ __ptext2 BA 0 CODE 0 text2 dist/default/production\interrupucoes_Externas.X.prod
 __ptext4 DE 0 CODE 0 text4 dist/default/production\interrupucoes_Externas.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\interrupucoes_Externas.X.production.o
 __size_of_inteRupUM 0 0 ABS 0 - dist/default/production\interrupucoes_Externas.X.production.o
-__ramtop 600 0 RAM 0 ramtop C:\Users\uniti\AppData\Local\Temp\xcAs9a8.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\uniti\AppData\Local\Temp\xcAs32o.o
 __Lpowerup 72 0 CODE 0 powerup dist/default/production\interrupucoes_Externas.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\interrupucoes_Externas.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\interrupucoes_Externas.X.production.o
