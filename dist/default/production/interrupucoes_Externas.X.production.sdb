@@ -27,17 +27,52 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 D:\MPLAB XC8\pic\sources\c99\common\Umul64.c
 [v ___omul __omul `(uo  1 e 8 0 ]
-"29 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
-[v _main main `(v  1 e 1 0 ]
-"64
+"30 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+[v _display_ZERO display_ZERO `(v  1 e 1 0 ]
+"34
+[v _display_UM display_UM `(v  1 e 1 0 ]
+"38
 [v _inteRupZERO inteRupZERO `IIH(v  1 e 1 0 ]
-"71
+"57
 [v _inteRupUM inteRupUM `IIL(v  1 e 1 0 ]
-"80
-[v _led_azul led_azul `(v  1 e 1 0 ]
-"85
-[v _led_vermelho led_vermelho `(v  1 e 1 0 ]
-[s S33 . 1 `uc 1 RD0 1 0 :1:0 
+"72
+[v _main main `(v  1 e 1 0 ]
+[s S137 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315 D:/SDKs/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[s S146 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S155 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S164 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S166 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S169 . 1 `S137 1 . 1 0 `S146 1 . 1 0 `S155 1 . 1 0 `S164 1 . 1 0 `S166 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES169  1 e 1 @3969 ]
+[s S24 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -46,8 +81,8 @@
 `uc 1 RD6 1 0 :1:6 
 `uc 1 RD7 1 0 :1:7 
 ]
-"669 D:/SDKs/MPLAB/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
-[s S272 . 1 `uc 1 PSP0 1 0 :1:0 
+"669
+[s S33 . 1 `uc 1 PSP0 1 0 :1:0 
 `uc 1 PSP1 1 0 :1:1 
 `uc 1 PSP2 1 0 :1:2 
 `uc 1 PSP3 1 0 :1:3 
@@ -56,17 +91,17 @@
 `uc 1 PSP6 1 0 :1:6 
 `uc 1 PSP7 1 0 :1:7 
 ]
-[s S281 . 1 `uc 1 . 1 0 :5:0 
+[s S42 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 P1B 1 0 :1:5 
 `uc 1 P1C 1 0 :1:6 
 `uc 1 P1D 1 0 :1:7 
 ]
-[s S286 . 1 `uc 1 . 1 0 :7:0 
+[s S47 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SS2 1 0 :1:7 
 ]
-[u S289 . 1 `S33 1 . 1 0 `S272 1 . 1 0 `S281 1 . 1 0 `S286 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES289  1 e 1 @3971 ]
-[s S24 . 1 `uc 1 TRISD0 1 0 :1:0 
+[u S50 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 `S47 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES50  1 e 1 @3971 ]
+[s S248 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
 `uc 1 TRISD3 1 0 :1:3 
@@ -76,24 +111,24 @@
 `uc 1 TRISD7 1 0 :1:7 
 ]
 "2175
-[u S42 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
-[v _TRISDbits TRISDbits `VES42  1 e 1 @3989 ]
-[s S64 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+[u S266 . 1 `S248 1 . 1 0 `S24 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES266  1 e 1 @3989 ]
+[s S288 . 1 `uc 1 NOT_BOR 1 0 :1:0 
 ]
 "5697
-[s S66 . 1 `uc 1 . 1 0 :1:0 
+[s S290 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_POR 1 0 :1:1 
 ]
-[s S69 . 1 `uc 1 . 1 0 :2:0 
+[s S293 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_PD 1 0 :1:2 
 ]
-[s S72 . 1 `uc 1 . 1 0 :3:0 
+[s S296 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_TO 1 0 :1:3 
 ]
-[s S75 . 1 `uc 1 . 1 0 :4:0 
+[s S299 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 NOT_RI 1 0 :1:4 
 ]
-[s S78 . 1 `uc 1 nBOR 1 0 :1:0 
+[s S302 . 1 `uc 1 nBOR 1 0 :1:0 
 `uc 1 nPOR 1 0 :1:1 
 `uc 1 nPD 1 0 :1:2 
 `uc 1 nTO 1 0 :1:3 
@@ -102,15 +137,15 @@
 `uc 1 SBOREN 1 0 :1:6 
 `uc 1 IPEN 1 0 :1:7 
 ]
-[s S87 . 1 `uc 1 BOR 1 0 :1:0 
+[s S311 . 1 `uc 1 BOR 1 0 :1:0 
 `uc 1 POR 1 0 :1:1 
 `uc 1 PD 1 0 :1:2 
 `uc 1 TO 1 0 :1:3 
 `uc 1 RI 1 0 :1:4 
 ]
-[u S93 . 1 `S64 1 . 1 0 `S66 1 . 1 0 `S69 1 . 1 0 `S72 1 . 1 0 `S75 1 . 1 0 `S78 1 . 1 0 `S87 1 . 1 0 ]
-[v _RCONbits RCONbits `VES93  1 e 1 @4048 ]
-[s S215 . 1 `uc 1 INT1IF 1 0 :1:0 
+[u S317 . 1 `S288 1 . 1 0 `S290 1 . 1 0 `S293 1 . 1 0 `S296 1 . 1 0 `S299 1 . 1 0 `S302 1 . 1 0 `S311 1 . 1 0 ]
+[v _RCONbits RCONbits `VES317  1 e 1 @4048 ]
+[s S208 . 1 `uc 1 INT1IF 1 0 :1:0 
 `uc 1 INT2IF 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 INT1IE 1 0 :1:3 
@@ -120,7 +155,7 @@
 `uc 1 INT2IP 1 0 :1:7 
 ]
 "6557
-[s S224 . 1 `uc 1 INT1F 1 0 :1:0 
+[s S217 . 1 `uc 1 INT1F 1 0 :1:0 
 `uc 1 INT2F 1 0 :1:1 
 `uc 1 . 1 0 :1:2 
 `uc 1 INT1E 1 0 :1:3 
@@ -129,13 +164,13 @@
 `uc 1 INT1P 1 0 :1:6 
 `uc 1 INT2P 1 0 :1:7 
 ]
-[u S233 . 1 `S215 1 . 1 0 `S224 1 . 1 0 ]
-[v _INTCON3bits INTCON3bits `VES233  1 e 1 @4080 ]
-[s S180 . 1 `uc 1 . 1 0 :7:0 
+[u S226 . 1 `S208 1 . 1 0 `S217 1 . 1 0 ]
+[v _INTCON3bits INTCON3bits `VES226  1 e 1 @4080 ]
+[s S355 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
 "6647
-[s S183 . 1 `uc 1 RBIP 1 0 :1:0 
+[s S358 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -144,12 +179,12 @@
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[s S192 . 1 `uc 1 . 1 0 :7:0 
+[s S367 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RBPU 1 0 :1:7 
 ]
-[u S195 . 1 `S180 1 . 1 0 `S183 1 . 1 0 `S192 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES195  1 e 1 @4081 ]
-[s S131 . 1 `uc 1 RBIF 1 0 :1:0 
+[u S370 . 1 `S355 1 . 1 0 `S358 1 . 1 0 `S367 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES370  1 e 1 @4081 ]
+[s S82 . 1 `uc 1 RBIF 1 0 :1:0 
 `uc 1 INT0IF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 RBIE 1 0 :1:3 
@@ -159,7 +194,7 @@
 `uc 1 GIE_GIEH 1 0 :1:7 
 ]
 "6724
-[s S140 . 1 `uc 1 . 1 0 :1:0 
+[s S91 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 INT0F 1 0 :1:1 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -168,34 +203,34 @@
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-[s S149 . 1 `uc 1 . 1 0 :6:0 
+[s S100 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[u S153 . 1 `S131 1 . 1 0 `S140 1 . 1 0 `S149 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES153  1 e 1 @4082 ]
-"29 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
+[u S104 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S100 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES104  1 e 1 @4082 ]
+"72 C:\Users\uniti\Documents\GitHub\Projetos de SO Embarcados\interrupucoes_Externas.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
-"62
+"104
 } 0
-"71
+"57
 [v _inteRupUM inteRupUM `IIL(v  1 e 1 0 ]
 {
-"77
+"68
 } 0
-"85
-[v _led_vermelho led_vermelho `(v  1 e 1 0 ]
+"34
+[v _display_UM display_UM `(v  1 e 1 0 ]
 {
-"87
+"36
 } 0
-"64
+"38
 [v _inteRupZERO inteRupZERO `IIH(v  1 e 1 0 ]
 {
-"70
+"56
 } 0
-"80
-[v _led_azul led_azul `(v  1 e 1 0 ]
+"30
+[v _display_ZERO display_ZERO `(v  1 e 1 0 ]
 {
-"84
+"32
 } 0

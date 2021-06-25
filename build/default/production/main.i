@@ -4528,13 +4528,56 @@ extern __attribute__((nonreentrant)) void _delay3(unsigned char);
 
 
 
-void led_azul();
-void led_vermelho();
+void display_ZERO();
+void display_UM();
+
 
 
 
 void __attribute__((picinterrupt(("high_priority")))) inteRupZERO();
 void __attribute__((picinterrupt(("low_priority")))) inteRupUM();
+
+void display_ZERO(){
+   PORTDbits.RD0 = ~PORTDbits.RD0;
+}
+
+void display_UM(){
+   PORTDbits.RD1 = ~PORTDbits.RD1;
+}
+
+void __attribute__((picinterrupt(("high_priority")))) inteRupZERO(){
+
+   if(INTCONbits.INT0IF){
+      display_ZERO();
+      _delay((unsigned long)((300)*(4000000/4000.0)));
+
+
+
+
+
+
+
+      while(1){
+         if(!PORTBbits.RB0) break;
+      }
+      display_ZERO();
+      INTCONbits.INT0IF = 0;
+   }
+}
+void __attribute__((picinterrupt(("low_priority")))) inteRupUM(){
+
+   if(INTCON3bits.INT1IF){
+      display_UM();
+      _delay((unsigned long)((500)*(4000000/4000.0)));
+      while(1){
+         display_UM();
+         if(!PORTBbits.RB1) break;
+      }
+      INTCON3bits.INT1IF = 0;
+   }
+}
+
+
 
 void main(void) {
 
@@ -4544,6 +4587,9 @@ void main(void) {
 
    TRISDbits.RD0 = 0;
    TRISDbits.RD1 = 0;
+
+
+
 
 
 
@@ -4564,34 +4610,5 @@ void main(void) {
    INTCON2bits.INTEDG1 = 0;
    INTCON3bits.INT1IP = 0;
 
-
-
-
-
    return;
-}
-
-void __attribute__((picinterrupt(("high_priority")))) inteRupZERO(){
-
-   if (INTCONbits.INT0IF){
-      led_azul();
-      INTCONbits.INT0IF = 0;
-   }
-}
-void __attribute__((picinterrupt(("low_priority")))) inteRupUM(){
-
-   if(INTCON3bits.INT1IF){
-      led_vermelho();
-
-   }
-}
-
-
-void led_azul(){
-
-   PORTDbits.RD0 = ~PORTDbits.RD0;
-   _delay((unsigned long)((1000)*(4000000/4000.0)));
-}
-void led_vermelho(){
-   PORTDbits.RD1 = ~PORTDbits.RD1;
 }
